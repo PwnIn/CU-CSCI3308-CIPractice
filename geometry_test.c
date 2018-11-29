@@ -202,10 +202,9 @@ Suite* coord_2d_suite(void)
     suite_add_tcase(s, tc_2d_eq);
     suite_add_tcase(s, tc_2d_dist);
     suite_add_tcase(s, tc_2d_midpoint);
-
+    suite_add_tcase(s, tc_2d_are);
     /* Return Suite */
     return s;
-
 }
 
 /* main: run test suites and set exit status */
