@@ -1,6 +1,6 @@
-# Andy Sayler
+# Xingyu Zhou
 # CI Practice
-# Summer 2014
+# Fall 2018
 
 CC = gcc
 CFLAGS = -c -g -Wall -Wextra
@@ -23,6 +23,7 @@ geometry.o: geometry.c geometry.h
 	$(CC) $(CFLAGS) $< -o $@
 
 dep:
+	sudo apt-get update
 	sudo apt-get install check
 
 clean:
